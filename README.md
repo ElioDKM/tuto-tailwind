@@ -55,3 +55,28 @@ Utilisation de l'ia pour la génération des contenues text (titre, description,
 ![alt text](./images/image.png)
 
 ![alt text](./images/image-1.png)
+
+# TP 3
+
+## Capture d'écran
+
+390px :
+![alt text](./images/image3.png)
+
+1280px :
+![alt text](./images/image4.png)
+
+## Info demandé
+
+Test à 768px : 
+![alt text](./images/image5.png)
+
+Les boutons sont bien accessible avec le clavier (touche tab)
+
+Flexbox pour la bannière car il y a que deux éléments à placer sur un seul axe : `flex flex-col` les empile sur mobile, puis `md:flex-row md:justify-between md:items-center` met le texte à gauche et l'action à droite à partir de 768px. 
+
+Grid pour la galerie car les six cartes doivent s'aligner sur les lignes et les colonnes avec la même largeur : `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3` passe de 1 à 2 puis 3 colonnes, et `gap-6` garde un espacement régulier.
+
+Pour la DA :
+- on garde une couleur pincipale de fond simple et sobre, avec une couleur d'accent pour mettre en avant les élements importants comme par exemple avec `bg-blue-700` pour la bannière pour qu'elle ressorte du reste de la page.
+- Les cartes ont un design pour qu'elles soit bien lisible et qu'on les différencie bine les unes des autres, avec par exemple le `shadow-sm`, `rounded-xl` et `ring-1 ring-slate-200` pour un contour clair et beau
