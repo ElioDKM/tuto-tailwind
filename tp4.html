@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première fiche Tailwind</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-slate-100 p-6 text-slate-900">
+    <main class="mx-auto max-w-md rounded-xl bg-white p-6 shadow-md">
+        <button id="details-button" type="button"
+            aria-expanded="false" aria-controls="details"
+            class="rounded-lg bg-blue-700 px-4 py-2 font-semibold text-white hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-700">
+            Afficher le texte
+        </button>
+        <button id="details-button2" type="button"
+            aria-expanded="false" aria-controls="details"
+            class="rounded-lg bg-blue-700 px-4 py-2 font-semibold text-white hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-700">
+            Afficher le texte
+        </button>
+        <div id="details" class="mt-4 rounded-lg bg-blue-50 p-4 hidden">
+            <p>Surprise je suis là !</p>
+        </div>
+        <div id="details2" class="mt-4 rounded-lg bg-blue-50 p-4 hidden">
+            <p>Surprise je suis là une deuxième fois!</p>
+        </div>
+        <script src="./interaction.js" defer></script>
+    </main>
+</body>
+</html>

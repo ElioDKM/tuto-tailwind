@@ -80,3 +80,9 @@ Grid pour la galerie car les six cartes doivent s'aligner sur les lignes et les 
 Pour la DA :
 - on garde une couleur pincipale de fond simple et sobre, avec une couleur d'accent pour mettre en avant les élements importants comme par exemple avec `bg-blue-700` pour la bannière pour qu'elle ressorte du reste de la page.
 - Les cartes ont un design pour qu'elles soit bien lisible et qu'on les différencie bine les unes des autres, avec par exemple le `shadow-sm`, `rounded-xl` et `ring-1 ring-slate-200` pour un contour clair et beau
+
+
+# TP 4
+
+## Remarque
+Le bouton permet bien d'afficher dans un premier temps le text choisis dans le js. Pour l'afficher on utilise `hidden` qu'on ajoute ou enlève de la liste de classes avec le `.toggle("hidden")` dans le fichier js.
